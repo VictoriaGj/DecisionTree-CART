@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 stevens = read.csv("C:\\users\\gaoni\\Documents\\R\\stevens.csv")
 # to show the attributes of the dataSet
 str(stevens)
@@ -28,3 +29,6 @@ predictROC
 pred = prediction(predictROC[,2],Test$Reverse)
 perf = performance(pred,"tpr","fpr")
 plot(perf)
+=======
+
+>>>>>>> 036b6ef069e22d3ef75e0172b970516d243a1882
